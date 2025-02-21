@@ -17,7 +17,7 @@ SECRET_KEY="n3ia)@nd#_#yb^5c+irg*l+yix!6jtn+330%gw#zmupe&4cuyk"
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = config('DEBUG', default=False, cast=bool)
 DEBUG=True
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['13.60.209.143', '127.0.0.1']
 
 CORS_ORIGIN_ALLOW_ALL = True # If this is used then `CORS_ORIGIN_WHITELIST` will not have any effect
 CORS_ALLOW_CREDENTIALS = True
